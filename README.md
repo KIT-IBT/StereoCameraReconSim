@@ -68,7 +68,7 @@ StereoCameraReconSim
 │
 ├───functions		          # contain the core functionallity
 │   │   ...
-│   │   
+│   │
 │   └───helpers
 │       │   ...
 │       │ 
@@ -77,11 +77,11 @@ StereoCameraReconSim
 │
 └───stl
     └───examples		  # Example meshes
-            50x50_cube.stl
-            center_cone.stl
-            nested_cubes.stl
-            thing.stl
-...
+	    50x50_cube.stl
+	    center_cone.stl
+	    nested_cubes.stl
+	    thing.stl
+	    ...
 
 
 ## License
@@ -95,7 +95,7 @@ TBD
 
 ## Contact
 
-Jan Kost, Andreas wachter
+Jan Kost, Andreas Wachter
 Institute of Biomedical Engineering  
 Karlsruhe Institute of Technology  
 www.ibt.kit.edu
