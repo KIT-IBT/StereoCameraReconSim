@@ -58,9 +58,9 @@ Just run "runSim.m" in MATLAB.
 ## Database configuration
 ```bash
 StereoCameraReconSim
-│   camSetup.m 			  # Config file for the camera setup (camera setup parameters/ intrinsic camera parameters)
+│   camSetup.m 			  # Config file for the camera setup
 │   runSim.m 			  # Script for starting the simulation
-│   simSettings.m 		  # Config file for programm settings (Input mesh /Reconstruction parameter/ Savings parameter)
+│   simSettings.m 		  # Config file for programm settings
 │
 ├───exclude_ids
 │       readme_exclude_faces.txt  # Discription for futher information
@@ -84,8 +84,8 @@ StereoCameraReconSim
 
 ## License
 
-All source code is subject to the terms of the Mozilla Public License, v. 2.0.  
-Copyright 2020 Steffen Schuler, Karlsruhe Institute of Technology.
+All source code is subject to the terms of the GNU General Public License v3.0.  
+Copyright 2020 Jan Kost, Karlsruhe Institute of Technology.
 
 ## Citation
 
