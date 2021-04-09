@@ -56,7 +56,7 @@ After setting the configuration parameter:
 Just run "runSim.m" in MATLAB.
 
 ## Database configuration
-...bash
+```bash
 StereoCameraReconSim
 │   camSetup.m 			  # Config file for the camera setup (camera setup parameters/ intrinsic camera parameters)
 │   runSim.m 			  # Script for starting the simulation
@@ -80,7 +80,7 @@ StereoCameraReconSim
 	    center_cone.stl
 	    nested_cubes.stl
 	    thing.stl
-...
+´´´
 ## License
 
 All source code is subject to the terms of the Mozilla Public License, v. 2.0.  
