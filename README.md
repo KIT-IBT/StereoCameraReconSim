@@ -85,7 +85,7 @@ StereoCameraReconSim
 ## License
 
 All source code is subject to the terms of the GNU General Public License v3.0.  
-Copyright 2020 Jan Kost, Karlsruhe Institute of Technology.
+Copyright 2020 Jan Kost, Andreas Wachter Karlsruhe Institute of Technology.
 
 ## Citation
 
