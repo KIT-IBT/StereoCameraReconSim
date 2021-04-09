@@ -1,0 +1,41 @@
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Workspace variable Files
+#*.mat
+camParameters.mat
+originalMesh.mat
+workspaceDump*.mat
+
+# Simulation Results directory
+**/results
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Simulink Code Generation
+slprj/
+
+# Session info
+octave-workspace
+
+# Simulink autosave extension
+.autosave
+
+# Other Non-Code Files
+#*.pdf
+#*.txt
+*.ppt
+*.pptx
+*.csv
+*.xls
+*.xlsx
+*.doc
+*.docx
+
+# ignore mac OSX hidden files (those begin with .) but not the .gitignore itself
+.*
+!/.gitignore
