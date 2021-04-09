@@ -59,14 +59,14 @@ Just run "runSim.m" in MATLAB.
 ## Database configuration
 ...
 StereoCameraReconSim
-│   camSetup.m 						# Config file for the camera setup (camera setup parameters/ intrinsic camera parameters)
-│   runSim.m 						# Script for starting the simulation
-│   simSettings.m 					# Config file for programm settings (Input mesh /Reconstruction parameter/ Savings parameter)
+│   camSetup.m 			  # Config file for the camera setup (camera setup parameters/ intrinsic camera parameters)
+│   runSim.m 			  # Script for starting the simulation
+│   simSettings.m 		  # Config file for programm settings (Input mesh /Reconstruction parameter/ Savings parameter)
 │
 ├───exclude_ids
-│       readme_exclude_faces.txt  	# Discription for futher information
+│       readme_exclude_faces.txt  # Discription for futher information
 │
-├───functions						# contain the core functionallity
+├───functions		          # contain the core functionallity
 │   │   ...
 │   │   
 │   └───helpers
@@ -76,7 +76,7 @@ StereoCameraReconSim
 │               ...
 │
 └───stl
-    └───examples					# Example meshes
+    └───examples		  # Example meshes
             50x50_cube.stl
             center_cone.stl
             nested_cubes.stl
