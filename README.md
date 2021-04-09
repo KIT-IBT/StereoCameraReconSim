@@ -17,19 +17,18 @@ There are different files for the simulation configuration:
 
    - input mesh
      - **filename**: Specify stl file name (file must be in the same folder as this file or in one of the subfolders)
-	 - **indexZero**: Vertices index start with 0? If so: set *true*. Use *false* if your ID list was taken from MATLAB.
+     - **indexZero**: Vertices index start with 0? If so: set *true*. Use *false* if your ID list was taken from MATLAB.
    
    - reconstruction parameter
      - **reconThreshold**: specify minimum number of camera that must see a surface patch for it to be considered reconstructable
     
    - saving & output parameters
-	 - **savePlots**: Set *true* to save matlab figures. NOTE: use figure(openfig("filepath with extension")) to open the saved plots
-	 - **saveWorkspaceVariables**: Set *true* to save the whole workspace. NOTE: the output file could have several GBytes.
+     - **savePlots**: Set *true* to save matlab figures. NOTE: use figure(openfig("filepath with extension")) to open the saved plots
+     - **saveWorkspaceVariables**: Set *true* to save the whole workspace. NOTE: the output file could have several GBytes.
    
    - plot settings
      - **displayPlots**: Set *true* to display the plots.
-     - **enforcePlot**:  Set *true* to force plotting all camera images even if there are more than
-    6 cams (NOTE: this can cause laggy behavior and require very long time to save all the figures)
+     - **enforcePlot**:  Set *true* to force plotting all camera images even if there are more than 6 cams (NOTE: this can cause laggy behavior and require very long time to save all the figures)
      - **showIDs**: Set *true* to show face IDs in plots
      - **showNormals**: Set *true* to show normals in plots
    
@@ -40,8 +39,8 @@ There are different files for the simulation configuration:
       - **center**: Specify the point, which will be the hypothetical "focal point" of the camera setup's objective lens
 
    -  parameters of the ring on which the cameras lie:
-   	  - **L**: Hypothetical working distance L (between mesh and Cameras)
-   	  - **b**: Baseline (ring diameter for positioning the cameras)
+      - **L**: Hypothetical working distance L (between mesh and Cameras)
+      - **b**: Baseline (ring diameter for positioning the cameras)
    
    -  intrinsic camera parameters
       - **L_x,L_y**: Sensor dimensions (width, height) in 'mm'
@@ -49,7 +48,7 @@ There are different files for the simulation configuration:
       - **o_x,o_y**: Principal point offset in 'pixels'
 
 3. exclude_ids
-	- Contain a mat-file with the verties ids wich were excluded from the calulation. (NOTE: detail discription in the folder.)
+   - Contains a mat-file with the verties ids wich were excluded from the calulation. (NOTE: detail discription in the folder.)
 
 ## Run
 After setting the configuration parameter:
@@ -57,7 +56,7 @@ After setting the configuration parameter:
 Just run "runSim.m" in MATLAB.
 
 ## Database configuration
-
+...bash
 StereoCameraReconSim
 │   camSetup.m 			  # Config file for the camera setup (camera setup parameters/ intrinsic camera parameters)
 │   runSim.m 			  # Script for starting the simulation
@@ -81,7 +80,7 @@ StereoCameraReconSim
 	    center_cone.stl
 	    nested_cubes.stl
 	    thing.stl
-
+...
 ## License
 
 All source code is subject to the terms of the Mozilla Public License, v. 2.0.  
