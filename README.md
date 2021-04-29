@@ -1,6 +1,8 @@
 # StereoCameraReconSim
 Framework for Simulation of 3D mesh reconstruction with given stereo pinhole camera setup.
 
+[![DOI](https://zenodo.org/badge/329569557.svg)](https://zenodo.org/badge/latestdoi/329569557)
+
 ## Overview
 
 StereoCameraReconSim is a simulation framework in MATLAB for a common main objective surgical mircoscope using multiple cameras. Deepending on a stl input mesh, it provides for each camera the respective image, the complete 3D reconstructable mesh, depending on a visibility threshold and reconstruction area in quantitative number.  For a better interpratation it is possible to excluse vertices from the reconsturction. The framework is based only on the "Parallel Compunting Toolbox" for acceleration. For deeper information, see the paper.
