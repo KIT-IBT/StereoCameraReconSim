@@ -1,7 +1,7 @@
 # StereoCameraReconSim
 Framework for Simulation of 3D mesh reconstruction with given stereo pinhole camera setup.
 
-[![DOI](https://zenodo.org/badge/329569557.svg)](https://zenodo.org/badge/latestdoi/329569557)
+[![zenodo 4727698](https://user-images.githubusercontent.com/70153727/116559554-dbf08800-a900-11eb-9d43-0a4178bc4af3.png)](https://doi.org/10.5281/zenodo.4727698)
 
 ## Overview
 
