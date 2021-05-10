@@ -15,33 +15,33 @@ There are different files for the simulation configuration:
    Config parameter:
    - specify program parameters
      - **headless**: Set *true* if you intend to run this program without a gui
-     - **suppressWarnings**: Set *false* this to unsuppress all warnings
+     - **suppressWarnings**: Set *false* to unsuppress all warnings
 
    - input mesh
-     - **filename**: Specify stl file name (file must be in the same folder as this file or in one of the subfolders)
-     - **indexZero**: Vertices index start with 0? If so: set *true*. Use *false* if your ID list was taken from MATLAB.
+     - **filename**: Specify stl file name (file must be in the same folder as "simSettings.m" or in one of the subfolders)
+     - **indexZero**: So the vertex indices in your stl start with 0? If so: set *true*. Use *false* if your vertex ID list was taken from MATLAB.
    
    - reconstruction parameter
-     - **reconThreshold**: specify minimum number of camera that must see a surface patch for it to be considered reconstructable
+     - **reconThreshold**: Specify minimum number of cameras that must see a surface patch for it to be considered reconstructable
     
    - saving & output parameters
      - **savePlots**: Set *true* to save matlab figures. NOTE: use figure(openfig("filepath with extension")) to open the saved plots
-     - **saveWorkspaceVariables**: Set *true* to save the whole workspace. NOTE: the output file could have several GBytes.
+     - **saveWorkspaceVariables**: Set *true* to save the whole workspace. NOTE: the output file could be several/many GB large and saving might take considerable time.
    
    - plot settings
      - **displayPlots**: Set *true* to display the plots.
-     - **enforcePlot**:  Set *true* to force plotting all camera images even if there are more than 6 cams (NOTE: this can cause laggy behavior and require very long time to save all the figures)
-     - **showIDs**: Set *true* to show face IDs in plots
+     - **enforcePlot**:  Set *true* to force plotting all camera images even if there are more than 6 cams (NOTE: this can cause laggy behavior and require very long time to open all the figures)
+     - **showIDs**: Set *true* to show face IDs in plots. this is intended for debugging purposes only and will clutter your plots greatly. Plots will become very laggy.
      - **showNormals**: Set *true* to show normals in plots
    
 2. camSetup.m
    Config parameter:
    -  camera setup parameters
       - **camNum**: Specify the number of cameras
-      - **center**: Specify the point, which will be the hypothetical "focal point" of the camera setup's objective lens
+      - **center**: Specify the point which will be the hypothetical "focal point" of your camera setup's objective lens.
 
    -  parameters of the ring on which the cameras lie:
-      - **L**: Hypothetical working distance L (between mesh and Cameras)
+      - **L**: Hypothetical working distance L (between mesh and camera ring)
       - **b**: Baseline (ring diameter for positioning the cameras)
    
    -  intrinsic camera parameters
@@ -50,10 +50,10 @@ There are different files for the simulation configuration:
       - **o_x,o_y**: Principal point offset in 'pixels'
 
 3. exclude_ids
-   - Contains a mat-file with the verties ids wich were excluded from the calulation. (NOTE: detail discription in the folder.)
+   - Contains a mat-file with the vertec ids wich were excluded from the calulation. (NOTE: detailed description in the identically named folder.)
 
 ## Run
-After setting the configuration parameter:
+After setting the configuration parameters:
 
 Just run "runSim.m" in MATLAB.
 
@@ -87,7 +87,7 @@ StereoCameraReconSim
 ## License
 
 All source code is subject to the terms of the GNU General Public License v3.0.  
-Copyright 2020 Jan Kost, Andreas Wachter Karlsruhe Institute of Technology.
+Copyright 2020 Jan Kost, Andreas Wachter - Karlsruhe Institute of Technology.
 
 ## Citation
 
