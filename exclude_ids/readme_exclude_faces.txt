@@ -5,7 +5,7 @@ Procedure:
     Variant A: in MATLAB
         1. Determine the IDs of the faces you'd like to exclude. Face ID = index of a face in the list of faces imported from the input STL.
         2. Concatenate all relevant IDs in a [1 x N] vector "exclIDs" in MATLAB and save "exclIDs" in a .mat file.
-        3. Rename the file to <meshname>.mat where <meshname> ist the name of your STL file (<meshname>.stl). 
+        3. Rename the file to <meshname>.mat where <meshname> is the name of your STL file (<meshname>.stl). 
         4. Place the .mat file here.
         5. In simSettings.m set the parameter "indexZero = false".
 
