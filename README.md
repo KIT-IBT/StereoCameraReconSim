@@ -90,8 +90,9 @@ All source code is subject to the terms of the GNU General Public License v3.0.
 Copyright 2020 Jan Kost, Andreas Wachter - Karlsruhe Institute of Technology.
 
 ## Citation
+If you use this software, please cite it as follows:
 
-TBD
+Wachter A, Kost J, Nahm W. Simulation-Based Estimation of the Number of Cameras Required for 3D Reconstruction in a Narrow-Baseline Multi-Camera Setup. Journal of Imaging. 2021; 7(5):87. https://doi.org/10.3390/jimaging7050087
 
 ## Contact
 
